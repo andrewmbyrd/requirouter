@@ -1,5 +1,5 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "requirouter:toggle"
+    "ctrl-alt-p": "requirouter:getPath"
   }
 }

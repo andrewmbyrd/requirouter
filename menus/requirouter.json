@@ -2,8 +2,8 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle requirouter",
-        "command": "requirouter:toggle"
+        "label": "Get Path String",
+        "command": "requirouter:getPath"
       }
     ]
   },
@@ -15,8 +15,8 @@
           "label": "requirouter",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "requirouter:toggle"
+              "label": "Get Path String",
+              "command": "requirouter:getPath"
             }
           ]
         }

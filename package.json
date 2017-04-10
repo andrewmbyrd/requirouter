@@ -6,7 +6,7 @@
   "keywords": [
   ],
   "activationCommands": {
-    "atom-workspace": "requirouter:toggle"
+    "atom-workspace": "requirouter:getPath"
   },
   "repository": "https://github.com/atom/requirouter",
   "license": "MIT",
