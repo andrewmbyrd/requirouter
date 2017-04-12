@@ -2,13 +2,13 @@
   "name": "requirouter",
   "main": "./lib/requirouter",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "This package is designed to allow developers to easily add files as dependecies in their projects. Optimized for ruby.",
   "keywords": [
   ],
   "activationCommands": {
     "atom-workspace": "requirouter:getPath"
   },
-  "repository": "https://github.com/atom/requirouter",
+  "repository": "https://github.com/andrewmbyrd/requirouter",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
