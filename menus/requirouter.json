@@ -5,6 +5,12 @@
         "label": "Get Path String",
         "command": "requirouter:getPath"
       }
+    ],
+    ".tree-view .entries .file": [
+      {
+        "label": "Get Relative Path",
+        "command": "requirouter:getPath"
+      }
     ]
   },
   "menu": [
