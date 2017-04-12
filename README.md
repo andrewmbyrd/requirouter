@@ -14,11 +14,11 @@ So, given the following tree structure:
 
 ![Tree Structure](http://i.imgur.com/FJwvkdx.png)
 
-Let's say we want to require Fun.rb in Hello.rb. Navigate into Hello.rb so that it is your Active Text Editor (you can type in there).
+Let's say we want to require `Fun.rb` in `Hello.rb`. Navigate into Hello.rb so that it is your Active Text Editor (you can type in there).
 
 ![Tree Structure](http://i.imgur.com/QIYYiyG.png)
 
-The fastest way is to right-click on the desired file in the Tree View and select `Get Path String`.
+The fastest way is to right-click on the desired file in the Tree View and select `Get Relative Path`.
 
 
 ![Tree Structure](http://i.imgur.com/os3XJfa.gif)
