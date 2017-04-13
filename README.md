@@ -18,18 +18,18 @@ Let's say we want to require `Fun.rb` in `Hello.rb`. Navigate into Hello.rb so t
 
 ![Tree Structure](http://i.imgur.com/QIYYiyG.png)
 
-The fastest way is to right-click on the desired file in the Tree View and select `Get Relative Path`.
+The fastest way is to select just one file is to right-click on the desired file in the Tree View and select `Get Relative Path`.
 
 
 ![Tree Structure](http://i.imgur.com/os3XJfa.gif)
 
 That's it! The file is now correctly required at the top of the file, with no need to modify the $LOAD_PATH.
 
-There are alternative methods as well. To accomplish the same goal, highlight Fun.rb in the Atom Tree View. This can conveniently be done by holding `ctrl` and making sure only the desired file is highlighted by clicking in the Tree View.
+There are alternative methods as well. To accomplish the same goal, highlight Fun.rb in the Atom Tree View. This can conveniently be done by holding `ctrl` and making sure only the desired file(s) is/are highlighted by clicking in the Tree View.
 
-![Tree Structure](http://i.imgur.com/ZHmjo5a.gif)
+![Tree Structure](http://i.imgur.com/5Vo0Da0.gif)
 
-Now that we have the desired file selected, we can go back into Hello.rb and use the keyboard shortcut `ctrl+alt+p` to paste in the proper path for requirement. The package automatically inserts this line of text at the top of the file.
+Now that we have the desired file(s) selected, we can go back into Hello.rb and use the keyboard shortcut `ctrl+alt+p` to paste in the proper path for requirement. The package automatically inserts this line of text at the top of the file. This is the best method to require multiple files in one go.
 
 Alternatively, you can right-click in the text editor and select `Get Path String` from the menu.
 
